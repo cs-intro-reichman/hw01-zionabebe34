@@ -4,13 +4,15 @@
  */
 public class Coins {
 	public static void main(String[] args) {
-		// Put your code here
-
-		int coins , quarters , cents; 
+		
+        //define the arguments
+		int coins , quarter , cents; 
 		coins = Integer.parseInt(args[0]); 
-		quarters = 25; 
-		cents = coins % quarters; 
-	    coins =  coins / quarters;
+		quarter = 25; 
+
+		//caculate the value of cents and quarters
+		cents = coins % quarter; 
+	    coins =  coins / quarter;
 
 		System.out.println("Use" + " " + coins + " " + "quarters" + " " + "and" + " " + cents + " " +"cents"); 
 
