@@ -12,6 +12,6 @@ public class AddTwo {
 		//the sum of the two numbers
 		c = a + b ; 
 
-		System.out.println(a + " " + " + " + b + " " + "=" + " " + c); 
+		System.out.println(a + " " + "+" + " " + b + " " + "=" + " " + c); 
 	}
 }
